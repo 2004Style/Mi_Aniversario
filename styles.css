@@ -18,8 +18,8 @@ body {
   padding: 2vh;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  width: 58vh;
-  height: 80vh;
+  width: 40vh;
+  height: 72vh;
   border-radius: 6vh;
   box-shadow: 0.2vh 0.2vh 1vh;
 }
@@ -78,14 +78,14 @@ body {
 .corazon::after {
   content: "";
   position: absolute;
-  width: 22vh;
-  height: 36vh;
+  width: 17vh;
+  height: 27vh;
   border-radius: 98vh 98vh 0 0;
   background: rgb(0, 0, 0);
 }
 
 .corazon::before {
-  left: 22vh;
+  left: 17vh;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .letra {
-  width: 44vh;
+  width: 34vh;
   height: 37vh;
   text-align: center;
   align-items: center;
@@ -114,18 +114,17 @@ body {
 }
 
 .frase {
-  margin-top: 24vh;
+  margin-top: 17vh;
   font-size: 2.2vh;
   text-align: center;
 }
 
 .boton {
-  width: 25vh;
-  height: 10vh;
+  width: 22vh;
+  height: 7vh;
   cursor: pointer;
   color: #fff;
   font-size: 4vh;
-  border-radius: 2vh;
   border: none;
   background: #100720;
   transition: 0.1s;

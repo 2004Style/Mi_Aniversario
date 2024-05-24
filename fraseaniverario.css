@@ -11,7 +11,7 @@ body {
 .tarjeta1 {
   flex-direction: column;
   top: 12vh;
-  width: 58vh;
+  width: 40vh;
   height: 80vh;
   display: flex;
   padding: 2vh;
@@ -58,7 +58,7 @@ body {
 }
 
 .titulo {
-  font-size: 4vh;
+  font-size: 3vh;
   background-image: linear-gradient(to right, rgb(68, 0, 255), rgb(255, 0, 123), rgb(244, 0, 0));
   -webkit-background-clip: text;
   background-clip: text;
@@ -78,5 +78,5 @@ body {
 .video {
   padding-top: 2vh;
   width: auto;
-  height: 38vh;
+  height: 32vh;
 }
